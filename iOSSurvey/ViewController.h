@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <objc/runtime.h>
+
+const char* class_getName(Class cls);
 
 @interface ViewController : UIViewController
 
